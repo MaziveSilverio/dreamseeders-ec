@@ -22,7 +22,6 @@ if(isset($_POST['submpagamento']))
   //$data = array('phone_number' => $telefonepagamento,'amount' => $preco, 'nome' => $nome);
   
   $url = 'https://paga.musicambicano.com/index2.php';
-  //$url = 'https://pagamento.musicambicano.com/index2.php';
   $options = array(
       'http' => array(
           'header' => "Content-type: application/x-www-form-urlencoded\r\n",
